@@ -85,6 +85,7 @@ export default class ModalDropdown extends Component {
       PropTypes.object,
     ]),
     renderButtonProps: PropTypes.object,
+    dropdownListProps:PropTypes.object,
     onDropdownWillShow: PropTypes.func,
     onDropdownWillHide: PropTypes.func,
     onSelect: PropTypes.func,
@@ -353,8 +354,11 @@ export default class ModalDropdown extends Component {
       options,
     } = this.props;
 
+    const { dropdownListProps } = this.props
+
     return (
       <FlatList
+      {...dropdownListProps}
         data={options}
         scrollEnabled={scrollEnabled}
         style={styles.list}
