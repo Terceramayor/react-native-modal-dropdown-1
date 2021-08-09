@@ -24,6 +24,7 @@
   "license": "MIT",
   "author": "sohobloo <sohobloo@live.cn> (https://github.com/sohobloo)",
   "main": "index.js",
+  "typings": "ModalDropDown.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/sohobloo/react-native-modal-dropdown.git"
