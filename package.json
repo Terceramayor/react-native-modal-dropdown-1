@@ -1,5 +1,5 @@
 {
-  "name": "react-native-modal-dropdown-extender",
+  "name": "react-native-modal-dropdown-extended",
   "version": "0.1.0",
   "description": "This is a simple fork of the library https://github.com/Kishanjvaghela/react-native-modal-dropdown (A react-native dropdown/picker/selector component for both Android & iOS.) that includes some extra props used to have more control over the rendering style of the drop down component",
   "keywords": [
