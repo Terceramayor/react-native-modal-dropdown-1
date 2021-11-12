@@ -475,7 +475,7 @@ const styles = StyleSheet.create({
     // flexGrow: 1,
   },
   rowText: {
-    color: "gray",
+    height: "100%",
     backgroundColor: "white",
   },
   highlightedRowText: {
